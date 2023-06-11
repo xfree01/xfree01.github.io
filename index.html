@@ -12,6 +12,29 @@
 
   gtag('config', 'G-HLC1GGQBJ9');
 </script>    
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDlJBEmkiY1uaC5NKB9ucFhW5wyreGT5YI",
+    authDomain: "clistcalc-931a0.firebaseapp.com",
+    projectId: "clistcalc-931a0",
+    storageBucket: "clistcalc-931a0.appspot.com",
+    messagingSenderId: "163445693679",
+    appId: "1:163445693679:web:f236a91f008c993a760f1a",
+    measurementId: "G-R6594XDF4V"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>    
   </head>
   <body>
     <h1>GitHub</h1>
