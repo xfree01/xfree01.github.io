@@ -9,9 +9,8 @@
             var URL = 'https://notify-bot.line.me/oauth/authorize?';
             URL += 'response_type=code';
             URL += '&client_id=qfmpSH3Q79WjBKm8dy5PqI';
-            URL += '&response_mode=form_post';            
              // redirect_url的值必需與Line Notify中的Callback URL一致
-            URL += '&redirect_url=https://xfree01.github.io';
+            URL += '&redirect_url=http://localhost:8888';
             URL += '&scope=notify';
             URL += '&state=NO_STATE';
             window.location.href = URL;
@@ -20,6 +19,7 @@
     </head>
     <body>
         <button onclick="auth();"> LineNotify </button>
-        v4
+        <br>
+        v5
     </body>
 </html>
